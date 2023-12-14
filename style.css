@@ -6,13 +6,44 @@ body {
   text-align: center;
 }
 
+/*
 header,
 footer {
-  background-color: #ff4136; /* Socialist red 😉 */
+  background-color: #ff4136;
   color: white;
   padding: 20px 0;
 }
 
 main {
   padding: 20px;
+} 
+*/
+
+nav {
+  width: 100%;
+  background-color: darkgrey;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: grey;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.column.left {
+  background-color: purple;
+  width: 25%;
+}
+
+.column.middle {
+  background-color: lightgreen;
+  width: 50%;
+}
+
+.column.right {
+  background-color: orange;
+  width: 25%;
 }
